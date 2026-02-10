@@ -1,6 +1,6 @@
 /* Configuración general */
 
-:root{
+:root {
     --primary-color: #005bb7;
     --secondary-color: #2e7d32;
     --accenet-color: #9c27b0;
@@ -8,7 +8,7 @@
     --text-dark: #333;
 }
 
-body{
+body {
     font-family: 'Courier New', Courier, monospace;
     background-color: var(--bg-body);
     color: var(--text-dark);
@@ -17,15 +17,39 @@ body{
     padding: 20px;
 }
 
-.container{
+.container {
     max-width: 900px;
     margin: 0 auto;
 }
 
-.card{
+.card {
     background: #fff;
     padding: 2rem;
     margin-bottom: 2rem;
     border-radius: 3px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* PSEUDOELEMENTOS */
+
+.demo-paragraph::first-letter {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    float: left;
+    margin-right: 8px;
+    line-height: 1;
+}
+
+.demo-paragraph::first-line {
+    font-weight: bold;
+    color: var(--accenet-color);
+    text-transform: uppercase;
+}
+
+.box-decoration {
+    position: relative;
+    padding: 20px;
+    border: 1px dashed #ccc;
+    text-align: center;
 }
