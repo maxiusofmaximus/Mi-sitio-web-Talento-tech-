@@ -53,3 +53,14 @@ body {
     border: 1px dashed #ccc;
     text-align: center;
 }
+
+.box-decoration::before{
+    color: orange;
+    margin-right: 10px;
+}
+
+.box-decoration::after{
+    font-size: 0.8rem;
+    color: #888;
+    font-style: italic;
+}
