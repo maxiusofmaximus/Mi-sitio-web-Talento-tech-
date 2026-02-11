@@ -81,10 +81,15 @@ body {
     background-color: #e67e22;
 }
 
-.custom-input:hover{
+.custom-input:hover {
     width: 100%;
     padding: 10px;
     border: 2px solid #ddd;
     border-radius: 4px;
     outline: none;
+}
+
+.custom-input:focus {
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 5px rgba(46, 125, 50, 0.3);
 }
