@@ -115,3 +115,12 @@ body {
     color: #e91e63;
     border-bottom: none;
 }
+
+.dynamic-list li:nth-child(even){
+    background-color: #f9f9f9;
+}
+
+.dynamic-list li:nth-child(3){
+    background-color: #e1f5fe;
+    border-left: 5px solid var(--primary-color);
+}
