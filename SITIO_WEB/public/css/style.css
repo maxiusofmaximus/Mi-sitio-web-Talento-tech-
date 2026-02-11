@@ -106,3 +106,7 @@ body {
     border-bottom: 1px solid #eee;
 }
 
+.dynamic-list li:first-child{
+    color: var(--primary-color);
+    font-weight: bold;
+}
