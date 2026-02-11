@@ -110,3 +110,8 @@ body {
     color: var(--primary-color);
     font-weight: bold;
 }
+
+.dynamic-list li:last-child{
+    color: #e91e63;
+    border-bottom: none;
+}
