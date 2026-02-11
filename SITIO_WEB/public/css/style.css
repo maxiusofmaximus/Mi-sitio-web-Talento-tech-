@@ -93,3 +93,16 @@ body {
     border-color: var(--secondary-color);
     box-shadow: 0 0 5px rgba(46, 125, 50, 0.3);
 }
+
+/* SELECTORES HIJOS */
+
+.dynamic-list {
+    list-style: none;
+    padding: 0;
+}
+
+.dynamic-list li{
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
