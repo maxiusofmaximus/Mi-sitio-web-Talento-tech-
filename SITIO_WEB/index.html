@@ -11,13 +11,25 @@
 <body>
     <header class="main-header">
         <h1>Conceptos de CSS3</h1>
-        <p>Explorando Pseudocalses y Pseudoelementos</p>
+        <p>Explorando Pseudoclases y Pseudoelementos</p>
     </header>
 
     <main class="container">
-        <h2>Pseudoelementos</h2>
-        <p class="demo-paragraph">Este párrafo demuestra el uso de <strong>::first-line</strong> y
-            <strong>::first-letter</strong>. La primera letra es más grande y la primera línea tiene un estilo distintivo, emulando un estilo editorial clásico de revista</p>
+        <section>
+            <h2>Pseudoelementos</h2>
+            <p class="demo-paragraph">Este párrafo demuestra el uso de <strong>::first-line</strong> y
+                <strong>::first-letter</strong>. La primera letra es más grande y la primera línea tiene un estilo
+                distintivo, emulando un estilo editorial clásico de revista
+            </p>
+            <div class="box-decoration">Este bloque usa <strong>::before</strong> y <strong>::after</strong> para añadir
+                elementos decorativos sin tocar el HTML</div>
+        </section>
+        <section class="card">
+            <h2>Pseudoclases</h2>
+            <p>Interactúa con los elementos para ver los estados</p>
+            <div class="form-group"><input type="text" placeholder="Haz clic para ver: Focus" class="custom-input">
+            </div>
+        </section>
     </main>
 </body>
 
