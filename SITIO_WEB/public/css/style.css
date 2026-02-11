@@ -76,3 +76,15 @@ body {
     cursor: pointer;
     transition: background 0.3s ease;
 }
+
+.custom-buttom:hover {
+    background-color: #e67e22;
+}
+
+.custom-input:hover{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+}
