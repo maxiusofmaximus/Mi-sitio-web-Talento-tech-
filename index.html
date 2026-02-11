@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/style.css">
+    <title>Página Principal</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <h1>Conceptos de CSS3</h1>
+        <p>Explorando Pseudoclases y Pseudoelementos</p>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>Pseudoelementos</h2>
+            <p class="demo-paragraph">Este párrafo demuestra el uso de <strong>::first-line</strong> y
+                <strong>::first-letter</strong>. La primera letra es más grande y la primera línea tiene un estilo
+                distintivo, emulando un estilo editorial clásico de revista
+            </p>
+            <div class="box-decoration">Este bloque usa <strong>::before</strong> y <strong>::after</strong> para añadir
+                elementos decorativos sin tocar el HTML</div>
+        </section>
+        <section class="card">
+            <h2>Pseudoclases</h2>
+            <p>Interactúa con los elementos para ver los estados</p>
+            <div class="form-group"><input type="text" placeholder="Haz clic para ver: focus" class="custom-input">
+            </div>
+            <button class="custom-button">Pasa el mouse (:hover)</button>
+            <h3>Lista Dinámica (Child Selectors)</h3>
+            <ul class="dynamic-list">
+                <li>Soy el primer hijo (:first-child)</li>
+                <li>Elemento par (:nth-child)</li>
+                <li>Soy el tercer elemento (:nth-child(3))</li>
+                <li>Elemento par (:nth-child)</li>
+                <li>Soy el último hijo (:last-child)</li>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>
